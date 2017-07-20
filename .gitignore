@@ -1,0 +1,4 @@
+apache-couchdb-2.0.0.tar.gz
+apache-couchdb_2.0.0.orig.tar.gz
+apache-couchdb-2.0.0/*
+!apache-couchdb-2.0.0/debian
