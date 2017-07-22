@@ -20,6 +20,19 @@ set -e
 
 case "$1" in
     configure)
+        adduser --system \
+            --no-create-home \
+            --shell /bin/bash \
+            --group --gecos \
+            "CouchDB Administrator" couchdb
+
+        dst=/home/couchdb
+        if [ ! -d $dst ] ; then
+            cp -a /usr/share/apache-couchdb/rel/couchdb $dst
+	    chown -R couchdb:couchdb $dst
+	    find $dst -type d -exec chmod 0770 {} \;
+	    chmod 0644 $dst/etc/*
+        fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
