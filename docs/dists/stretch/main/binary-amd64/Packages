@@ -1,0 +1,48 @@
+Package: apache-couchdb
+Architecture: amd64
+Version: 2.0.0-1
+Priority: optional
+Section: database
+Maintainer: unknown <thepakamaster@free.fr>
+Installed-Size: 38387
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libicu57 (>= 57.1-1~), libmozjs185-1.0 (>= 1.8.5-1.0.0+dfsg), libssl1.0.2 (>= 1.0.2d), libstdc++6 (>= 5.2), libsystemd0, libtinfo5 (>= 6), init-system-helpers (>= 1.18~)
+Filename: dists/stretch/main/binary-amd64/apache-couchdb_2.0.0-1_amd64.deb
+Size: 18097738
+MD5sum: 24ebb720d9d1c8698a5a233cb15db846
+SHA1: 32ed736f1f3509c6974ddb78403ab2cf23a7b81a
+SHA256: 3b07006da8b50931d97346063d25b18262d9be3f41bfd4c9bc6b81411864df96
+SHA512: 7dd8594480c8dc8a5df913c2b42ade5379d9d44d0c3d8128eec1877c30f7afb5a091b558cd1a03fbd541a3cc0d9eff251d5b5f3fd0cef6986995242a08d28793
+Homepage: http://couchdb.apache.org/
+Description: RESTful document oriented database
+ Apache CouchDB is a distributed, fault-tolerant and schema-free
+ document-oriented database accessible via a RESTful HTTP/JSON API. Among other
+ features, it provides robust, incremental replication with bi-directional
+ conflict detection and resolution, and is queryable and indexable using a
+ table-oriented view engine with JavaScript acting as the default view
+ definition language.
+ .
+ CouchDB is written in Erlang, but can be easily accessed from any environment
+ that provides means to make HTTP requests. There are a multitude of third-party
+ client libraries that make this even easier for a variety of programming
+ languages and environments.
+
+Package: apache-couchdb-dbgsym
+Architecture: amd64
+Version: 2.0.0-1
+Auto-Built-Package: debug-symbols
+Priority: extra
+Section: debug
+Source: apache-couchdb
+Maintainer: unknown <thepakamaster@free.fr>
+Installed-Size: 358
+Depends: apache-couchdb (= 2.0.0-1)
+Filename: dists/stretch/main/binary-amd64/apache-couchdb-dbgsym_2.0.0-1_amd64.deb
+Size: 285648
+MD5sum: 9b681b305915a3315afb1ed2ee2d1cbb
+SHA1: 3570a9faf7a9a84ba8804d8a813bcde440418c58
+SHA256: 1f5ea787a87d453c777eeee162676a28902a8d34ee94a8adbe8fc1cd5fea41b6
+SHA512: 67d345dd5378732db4eb271e28c582b6e3135adec373099c25464c2fa1d601d9573d5fa09ffb429af1757a1afcacfc30b611321d9405f4e849ef4a06f741f523
+Homepage: http://couchdb.apache.org/
+Description: Debug symbols for apache-couchdb
+Build-Ids: 07b5f7801cc65b6470f1d682e69b4fbb92e147b1 344cadce249a4fc26900980006a7d7488ca79fa9 6bf97ed0cdbf29c9b93cdb84c4cfef573a030e66 bb25f825b5f95bf926ff2e320de60884a0f18c4f c683827c061da59e62d58e8d02f1db0d089f3748 c683827c061da59e62d58e8d02f1db0d089f3748 eb356df0aa39a4eee1efa593873eba6b391c69ec fdb6118ec80dbca195b7e4452f3ed528b119811d
+

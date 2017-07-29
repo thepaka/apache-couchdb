@@ -1,0 +1,18 @@
+Architectures: amd64
+Components: main
+Date: Sat, 29 Jul 2017 14:19:35 +0000
+Label: thepaka.github.io
+Origin: Thepaka github
+Suite: stretch
+MD5Sum:
+ 080f7484efd4971e8e69147da7e26c12              139 Release
+ d06a232efc6fff601bb8cb784a743716             2580 main/binary-amd64/Packages
+SHA1:
+ 3036807cb26347253f69967387030703cc2dc911              139 Release
+ 8d036b5cdabc88575fe03b256f5f2547e3c6b338             2580 main/binary-amd64/Packages
+SHA256:
+ 002c1fe3206089b8bf3183d43f1110e3d799988a91a389fb7c1a27e3a8530da6              139 Release
+ fcb243ba3de6a82c1d7b7936b7d6e6f1af2ebbe612388c0b73defe265dacf9a9             2580 main/binary-amd64/Packages
+SHA512:
+ d9729beaaa14dbef90311938cb7b785ec603bad1148eddc14f0e88c4d554d832f538027cebd2c57e0a78dc35933a78a9b557b35246fa71c997b48468f9336bc6              139 Release
+ 282bf30c36228bac3dc6cbcda24922a69615b9c8e7e310261f7731e35a3af11e04fc83d97a681e1e94ad27b82ffff37b2728cc4f0425e2253fcc12e3024a7ffb             2580 main/binary-amd64/Packages
